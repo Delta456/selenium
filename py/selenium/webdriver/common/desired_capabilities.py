@@ -98,3 +98,7 @@ class DesiredCapabilities:
     WPEWEBKIT = {
         "browserName": "MiniBrowser",
     }
+
+    ELECTRON = {
+        "browserName": "electron",
+    }
