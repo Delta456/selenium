@@ -26,6 +26,9 @@ from .edge.options import Options as EdgeOptions  # noqa
 from .edge.service import Service as EdgeService  # noqa
 from .edge.webdriver import WebDriver as ChromiumEdge  # noqa
 from .edge.webdriver import WebDriver as Edge  # noqa
+from .electron.options import Options as ElectronOptions
+from .electron.service import Service as ElectronService
+from .electron.webdriver import WebDriver as Electron
 from .firefox.firefox_profile import FirefoxProfile  # noqa
 from .firefox.options import Options as FirefoxOptions  # noqa
 from .firefox.service import Service as FirefoxService  # noqa
@@ -62,6 +65,9 @@ __all__ = [
     "ChromiumEdge",
     "EdgeOptions",
     "EdgeService",
+    "Electron",
+    "ElectronOptions",
+    "ElectronService",
     "Safari",
     "SafariOptions",
     "SafariService",
